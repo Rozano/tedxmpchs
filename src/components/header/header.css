@@ -1,0 +1,39 @@
+.header-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #282828;
+    padding: 0 2rem 4rem;
+    margin: 4rem 6rem;
+    margin-bottom: -50px;
+}
+
+.header-icon-container div {
+    flex: 1;
+    max-width: 60px;
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-icon {
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.header-icon:hover {
+    color: #e62b1e;
+    opacity: 100%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+

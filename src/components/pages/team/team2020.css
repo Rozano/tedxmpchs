@@ -1,0 +1,119 @@
+.red-text {
+    color: #e62b1e;
+    font-style: normal;
+    display: inline-block;
+}
+
+.red-text-2 {
+    color: #e62b1e;
+    font-style: italic;
+    display: inline-block;
+}
+
+.team2020 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.team2020-titles-production {
+    margin-bottom: 50px;
+}
+
+.team2020-titles-marketing-design {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team2020-titles-past-members {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team2020-production,
+.team2020-marketing-design,
+.team2020-past-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.team2020-titles-production,
+.team2020-titles-marketing-design,
+.team2020-titles-past-members {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 75%;
+    font-style: italic;
+}
+
+.team2020-photos {
+    height: 450px;
+    width: 300px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-bottom: 20px;
+}
+
+.team2020-titles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    background-color: #282828;
+    opacity: 90%;
+    position: absolute;
+    width: 300px;
+    margin-top: -90px;
+    padding: 5px;
+    max-width: 100%;
+    text-align: left;
+    font-style: italic;
+}
+
+.jolie,
+.karen,
+.elizaveta,
+.rina,
+.sieon,
+.theresa,
+.riya,
+.anhminh,
+.max,
+.gabe,
+.ally,
+.anh {
+    width: 300px;
+    min-height: 850px;
+}
+
+.team2020-bio,
+.team2020-fact,
+.team2020-favorite {
+    text-align: justify;
+    font-weight: 200;
+    font-size: 14px;
+    color: #282828;
+    opacity: 75%;
+}
+
+.team2020-production {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.team2020-marketing-design {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.team2020-past-members {
+    display: flex;
+    flex-flow: row wrap;
+}

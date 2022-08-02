@@ -1,0 +1,98 @@
+.home-header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/tedxmcphsbanner_scaled.jpg');
+    padding: 200px;
+    /* background-position: left -700px bottom 800px; */
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+    z-index: 1;
+}
+
+.home-middle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/mcphs.jpeg');
+    padding: 200px;
+    /* background-position: left -700px bottom 800px; */
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 50px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+.link {
+    color: #e62b1e;   
+}
+
+.home-title {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 50px;
+    opacity: 75%;
+}
+
+.home-subtitle {
+    margin-top: -50px;
+    color: #282828;
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 75%;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.home p {
+    color: #282828;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 200;
+    display: inline;
+    margin-bottom: 50px;
+    opacity: 75%;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media screen and (max-width: 975px) {
+    .home-header-image {
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-header-image {
+        padding: 50px;
+    }
+} */

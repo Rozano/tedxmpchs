@@ -1,0 +1,123 @@
+.italic {
+    font-style: italic;
+}
+
+.speakers2020 {
+    padding-top: 200px;
+}
+
+.speakers2020-main-title  {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.carousel-buttons {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-buttons i {
+    font-family: var(--font-family);
+    font-weight: 200;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    color: #282828;
+    opacity: 85%;
+}
+
+.carousel-icon {
+
+    font-size: 15px;
+    opacity: 85%;
+    color: #282828;
+    font-family: var(--font-family);
+}
+
+.active {
+    color: #282828;
+}
+
+.setActive {
+    color: #e62b1e;
+}
+
+.carousel-icon:hover {
+    color: #e62b1e;
+    opacity: 100%;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.speakers2020-containers {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.speakers2020-photos {
+    margin: 20px;
+}
+
+.speakers2020-names {
+    background-color: #e62b1e;
+    color: #fff;
+    opacity: 84%;
+    position: absolute;
+    padding: 5px;
+    width: 200px;
+    margin-top: -60px;
+}
+
+.speakers2020-titles {
+    width: 200px;
+    font-weight: 200;
+    color: #fff;
+    background-color: #282828;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.speakers2020-photos img {
+    /* width: calc(15vw);
+    height: auto; */
+    height: 300px;
+    width: 200px;
+}
+
+.speakers2020-info {
+    margin: 20px;
+    text-align: justify;
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+    color: #282828;
+    opacity: 75%;
+}
+
+.speakers2020-talk-titles {
+    font-weight: 300;
+    opacity: 75%;
+}
+
+@media screen and (max-width: 800px) {
+    .speakers2020-containers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

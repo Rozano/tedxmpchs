@@ -1,0 +1,19 @@
+.speakers2022 {
+    padding-top: 200px;
+}
+
+.speakers2022-main-title  {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.placeholder {
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    color: #282828;
+    opacity: 75%;
+}

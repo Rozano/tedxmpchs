@@ -1,0 +1,137 @@
+.red-text {
+    color: #e62b1e;
+    font-style: normal;
+    display: inline-block;
+}
+
+.red-text-2 {
+    color: #e62b1e;
+    font-style: italic;
+    display: inline-block;
+}
+
+.team2022 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.team2022-title {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 75%;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.team2022 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.team2022-titles-speaker-catalyst {
+    margin-bottom: 50px;
+}
+
+.team2022-titles-production {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team2022-titles-marketing {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team2022-production,
+.team2022-marketing-design,
+.team2022-past-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.team2022-titles-speaker-catalyst,
+.team2022-titles-production,
+.team2022-titles-marketing {
+    color: #282828;
+    font-size: 50px;
+    font-weight: 500;
+    opacity: 75%;
+    font-style: italic;
+}
+
+.team2022-photos {
+    height: 450px;
+    width: 300px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-bottom: 20px;
+}
+
+.team2022-titles {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+    background-color: #282828;
+    opacity: 90%;
+    position: absolute;
+    width: 300px;
+    margin-top: -90px;
+    padding: 5px;
+    max-width: 100%;
+    text-align: left;
+    font-style: italic;
+}
+
+.minh,
+.sieon,
+.alondra,
+.allen,
+.caroline,
+.kelly,
+.abby,
+.kiranmayee,
+.theresa,
+.tamara,
+.cathie,
+.chanda,
+.ngocdinh
+{
+    width: 300px;
+    min-height: 850px;
+}
+
+.team2022-bio,
+.team2022-fact,
+.team2022-favorite {
+    text-align: justify;
+    font-weight: 200;
+    font-size: 14px;
+    color: #282828;
+    opacity: 75%;
+}
+
+.team2022-production {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.team2022-marketing-design {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.team2022-past-members {
+    display: flex;
+    flex-flow: row wrap;
+}

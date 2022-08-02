@@ -1,0 +1,112 @@
+.subscribe-modal-background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .subscribe-modal-container {
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 0 auto;
+  }
+  
+  .subscribe-modal-title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;
+  }
+
+  .subscribe-modal-title p {
+      font-weight: 200;
+      font-size: 50px;
+      font-family: var(--font-family);
+      opacity: 75%;
+    }
+
+.subscribe-modal-body {
+      font-weight: 200;
+      font-size: 18px;
+      padding: 20px;
+      opacity: 75%;
+}
+  
+.subscribe-modal-close {
+    display: flex;
+    justify-content: flex-end;
+}
+  
+  .subscribe-modal-close button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    opacity: 85%;
+    font-weight: 200;
+    font-family: var(--font-family);
+}
+  
+.subscribe-modal-footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.subscribe-modal-footer button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #e62b1e;
+    border: 2px solid #e62b1e;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    opacity: 85%;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.subscribe-modal-footer button:hover {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    opacity: 100%;
+}
+  
+.subscribe-modal-footer input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #282828;
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    opacity: 85%;
+}
